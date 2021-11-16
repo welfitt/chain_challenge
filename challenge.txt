@@ -1,0 +1,16 @@
+Problem:
+@here For a chain which is considered ‘unbroken’, all parts of the chain can be reached without exiting the chain. For example, in this diagram:
+#######
+#
+#
+there is 1 unbroken chain. However, in this diagram:
+### #######
+
+          #
+there are actually 3 distinct unbroken chains.
+Your task is to write a program which can determine how many separate chains exist in this input problem. You can assume that links can only be connected vertically and horizontally (not diagonally) and that no two chains touch one another.
+:five:  Points are awarded for a working solution
+:three:  Points are awarded for also returning the total length of chain in the input
+:two:  Points are awarded for a solution which returns in less than 0.25s
+Submission:
+If you think you have the correct answer, check using the /check command here on Slack. When you’re happy with your solution, submit a link to your source code repo using the /submit command. If you encounter an error with either command, try again in 10 seconds - I’m aware of this issue. Submission closes noon 18th October
