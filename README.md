@@ -11,4 +11,4 @@ Once it's completely deleted a chain the main loop adds the length of that chain
 It then goes back to scanning the 2d array looking for the next element with a hash in it. Wash rinse repeat. 
 Eventually it wipes the contents of the 2d array and prints out the results. 
 
-Deleting an hash after it had been counted had the bonus of not having to keep track of what had already been counted and thus preventing double counting a chain or hash.
+Deleting a hash after it had been counted had the bonus of not having to keep track of what had already been counted and thus preventing double counting a chain or hash.
